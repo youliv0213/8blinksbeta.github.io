@@ -88,38 +88,6 @@ src="https://www.facebook.com/tr?id=1715646242086741&ev=PageView&noscript=1"
 /></noscript>
 
 
-<script type="text/javascript">
 
-
-function down(url, related_books_url){
-  if(url.indexOf('readonline') !== -1)
-  {
-    window.location = url;
-  }
-  else
-  {
-    $("#downloader").attr('src', '?download=' + url);
-    setTimeout(function () {
-      $("#downloader").attr('src', '');
-      window.location = url;
-
-    }, 1000)
-    setTimeout(function () {
-      $("#downloader").attr('src', '');
-      if (typeof related_books_url === "undefined")
-      {
-
-      }
-      else
-      {
-        window.location = related_books_url;
-      }
-
-    }, 3000)
-    return false;
-  }
-
-}
-</script>
 </body>
 </html>
