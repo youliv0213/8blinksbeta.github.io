@@ -265,6 +265,7 @@ a {
   padding: 100px 30px;
   min-width:1500px;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  
 }
 
 #third .col-left {
@@ -487,10 +488,11 @@ a {
     flex-direction: column;
     padding:25px;
     border-radius: 10px;
-    border: 1px solid #29374E;
+    border: 4px solid #29374E;
     margin: 15px 5px;
     color:white;
     background-color:#29374E ;
+    border-left-color:#00ffff;
   }
   #seventh .side-bar p{
     font-size:1.3rem;
@@ -506,17 +508,55 @@ a {
     align-items: flex-end;
     justify-content: center;
     flex-direction: row;
-     margin-top:-80px;
-     padding-top:40px;
-     padding-bottom:20px;
-     padding-left:300px;
+    margin-top:-80px;
+    padding-top:40px;
+    padding-bottom:20px;
+    padding-left:300px;
+    font-size:1.5rem;
   }
 
   #seventh .side-bar .side-bar-bottom .cta{
-     color:white;
+     color:#00ffff;
+  }
+  
+  #seventh .side-bar-1 .side-bar-bottom .cta-1{
+    color:#ff7f50;
   }
 
+  #seventh .side-bar-1{
+    flex-basis: 80%;
+    display: flex;
+    align-items: felx-start;
+    justify-content: center;
+    flex-direction: column;
+    padding:25px;
+    border-radius: 10px;
+    border: 4px solid #29374E;
+    margin: 15px 5px;
+    color:white;
+    background-color:#29374E ;
+    border-left-color:#ff7f50;
+  }
+  #seventh .side-bar-1 p{
+    font-size:1.3rem;
+    line-height: 3rem;
+  }
 
+  #seventh .side-bar-1 h4{
+    font-size:2rem;
+    line-height: 3rem;
+  }
+  #seventh .side-bar-1 .side-bar-bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    margin-top:-80px;
+    padding-top:40px;
+    padding-bottom:20px;
+    padding-left:300px;
+    font-size:1.5rem;
+  }
 
   #FAQ .FAQ{
     display: flex;
@@ -569,7 +609,7 @@ a {
   }
   
 #feedback  h2{
-    font-size:2.5rem;
+    font-size:3rem;
     font-weight: bold;
     color:#00ffff;
     margin-bottom:40px;
@@ -582,9 +622,30 @@ a {
     flex-direction: row;
 }
 #feedback .feedback-items img{
-    padding:20px 70px;
+    padding:20px 150px;
 }
-  #footer .footer {
+
+#feedback .feedback-bottom .feedback-bottom-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#feedback .feedback-bottom .feedback-bottom-name p{
+  font-size:1.8rem;
+  color:#ff7f50;
+  text-align: center;
+  padding-top:10px;
+}
+
+#feedback .feedback-bottom p{
+  font-size:1.5rem;
+  color:grey;
+  line-height: 2rem;
+  padding-top:10px;
+}
+
+#footer .footer {
     background-color: #181625;
     color:white;
     display: flex;
@@ -596,7 +657,7 @@ a {
     line-height: 2rem;
   }
   
-  #footer a {
+#footer a {
     display: flex;
     flex-direction: column;
     color:white;
